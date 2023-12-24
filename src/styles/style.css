@@ -58,9 +58,9 @@ header nav a{
 }
 .carousel .list{
     position: absolute;
-    width: 85rem;
-    max-width: 95%;
-    height: 95%;
+    width: 1140px;
+    max-width: 90%;
+    height: 80%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -80,7 +80,7 @@ header nav a{
     transform: translateX(0);
 }
 .carousel .list .item img{
-    width: 45%;
+    width: 50%;
     position: absolute;
     right: 0;
     top: 50%;
