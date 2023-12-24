@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #F4F4F4;
     font-family: Poppins;
+    overflow: hidden !important;
 }
 :root{
     --item1-transform: translateX(-100%) translateY(-5%) scale(1.5);
@@ -51,8 +52,7 @@ header nav a{
 
 /* carousel */
 .carousel{
-    position: relative;
-    height: 800px;
+    height: webkit-fill-available !important;
     overflow: hidden;
     margin-top: -50px;
 }
