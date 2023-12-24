@@ -119,7 +119,7 @@ header nav a{
     margin-top: 1.2em;
     padding: 5px 0;
     border: none;
-    border-bottom: 1px solid #555;
+    /* border-bottom: 1px solid #555; */
     background-color: transparent;
     font-weight: bold;
     letter-spacing: 3px;
@@ -318,6 +318,7 @@ header nav a{
     animation-delay: 1.4s;
 }
 .carousel.showDetail .list .item:nth-child(2) .detail .checkout{
+    margin-top: 1rem;
     animation-delay: 1.6s;
 }
 .arrows{
@@ -352,7 +353,7 @@ header nav a{
     left: 50%;
     transform: translateX(-50%);
     border: none;
-    border-bottom: 1px solid #555;
+    /* border-bottom: 1px solid #555; */
     font-family: Poppins;
     font-weight: bold;
     letter-spacing: 3px;
