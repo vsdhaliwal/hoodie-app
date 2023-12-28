@@ -90,6 +90,20 @@ export default function Home() {
       checkoutButton.addEventListener('click', handleSubmitClick);
     }
 
+    const handleKeyDown = (e) => {
+      if (e.key === 'ArrowRight') {
+        showSlider('next');
+      } else if (e.key === 'ArrowLeft') {
+        showSlider('prev');
+      }
+    };
+  
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+
   }, []);
 
 
