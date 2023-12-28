@@ -90,7 +90,7 @@ export default function Home() {
       checkoutButton.addEventListener('click', handleSubmitClick);
     }
 
-    const handleKeyDown = (e) => {
+    const handleKeyDown = (e: { key: string; }) => {
       if (e.key === 'ArrowRight') {
         showSlider('next');
       } else if (e.key === 'ArrowLeft') {
